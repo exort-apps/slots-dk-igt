@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:darkslategray;
+  }
+  
+  #wrapper {
+    width: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  #reward-explanation {
+    margin: 10px;
+    text-align: left;
+  }
+
+  #reward-explanation img {
+    width: 32px;
+  }
+  
+  #reward-explanation ul li {
+    list-style-type: none;
+  }
+  
+  #game {
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    padding-bottom: 20px;
+    background-image: url("images/background_new_5x3.png");
+    background-position: 50px 0px;
+    background-repeat: no-repeat;
+  }
+  
+  
+  button {
+    font-size: 20px;
+    background-color:black;
+    color: aqua;
+    border: 1px solid blanchedalmond;
+    margin: 2px 2px;
+  }
+  
+  #info {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 100px;
+    text-align: left;
+    font-size: 25px;
+    font-family: arial, helvetica, sans-serif;
+  }
+  
+  #credits {
+    font-size: 25px;
+  }
+  
+  #log {
+    color: #666666;
+  }
+  

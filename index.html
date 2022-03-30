@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine Demo</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="game">
+          <canvas id="slots" width="230" height="160"></canvas><br />
+          <button type="button" onclick="spin(1);">1 Line</button><br />
+          <button type="button" onclick="spin(3);">All Lines</button>
+        </div>
+  
+        <div id="info">
+          <p id="credits"></p>
+          <p id="log"></p>
+        </div>
+  
+        <div id="reward-explanation">
+          <ul>
+            <li><img src="images/bill.png"> <img src="images/2dollars.png"> <img src="images/3dollars.png"> Mix of these 2 credits</li>
+            <li><img src="images/coin.png"> <img src="images/2coins.png"> <img src="images/3coins.png"> Mix of these 6 credits</li>
+            <li><img src="images/3dollars.png"> 4 credits</li>
+            <li><img src="images/2dollars.png"> 6 credits</li>
+            <li><img src="images/bill.png"> 8 credits</li>
+            <li><img src="images/coin.png"> 10 credits</li>
+            <li><img src="images/2coins.png"> 15 credits</li>
+            <li><img src="images/3coins.png"> 20 credits</li>
+            <li><img src="images/pineapple.png"> 25 credits</li>
+            <li><img src="images/alien.png"> 50 credits</li>
+            <li><img src="images/joker.png"> 75 credits, also replaces any other symbol in combinations</li>
+            <li><img src="images/diamond.png"> 100 credits</li>
+            <li><img src="images/cake.png"> 250 credits</li>
+          </ul>
+        </div>
+        
+  
+      </div>
+  
+      <script type="text/javascript">
+        init();
+      </script>
+</body>
+</html>
